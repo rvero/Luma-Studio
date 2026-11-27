@@ -1,0 +1,22 @@
+# Ambientes e pacotes locais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Arquivos gerados e temporários
+build/
+dist/
+*.log
+*.tmp
+*.zip
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
